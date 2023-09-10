@@ -1,0 +1,13 @@
+.ContactTitle{
+    font-size: 3rem;
+    line-height: 2.2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:992px){
+    .ContactTitle{
+        font-size: 2.4rem;
+    }
+}

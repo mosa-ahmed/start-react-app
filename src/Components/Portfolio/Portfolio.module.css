@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700');
+.PortfolioTitle{
+    font-size: 3rem;
+    line-height: 2.2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color:#182f44;
+}
+section{
+    background-color: #1abc9c;
+}
+.layer{
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index:2;
+    cursor: pointer;
+}
+.layer:hover{
+    opacity:1;
+}
+.close{
+    top: 2%;
+    right: 2%;
+    border:none;
+    background-color: transparent;
+    color: #1abc9c;
+    transition: all 0.2s;
+ }
+ .close:hover{
+    color: #137562;
+ }
+ .btnColor{
+     background-color: #1abc9c!important;
+     transition: all 0.2s;
+ }
+ .btnColor:hover{
+     background-color: #137562!important;
+ }
+ .xIcon{
+     font-size: 4rem;
+     font-weight: bolder;
+ }
+
+ @media screen and (max-width:992px){
+    .xIcon{
+        font-size: 2.5rem;
+    }
+    .PortfolioTitle{
+        font-size: 2.4rem;
+    }
+}

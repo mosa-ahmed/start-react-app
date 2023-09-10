@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+.bgSec{
+    background-color: #2c3e50;
+}
+nav{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+.navbarBrand{
+    font-size: 1.7rem !important;
+}
+.navItem{
+    font-size: 16px;
+}
+nav  li.navItem a.navLink {
+    color: #fff;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+nav  li.navItem a.navLink:hover {
+    color: #1abc9c;
+}
+
+
+@media screen and (min-width:992px){
+    nav  li.navItem a.navLink:focus{
+        color: #fff;
+        background: #1abc9c;
+        border-radius: 7px;
+    }
+    nav .navbar-brand{
+        font-size: 1.75em;
+    }
+}
+.fa-bars{
+    font-size: 15px;
+}
+.navbar-toggler{
+    background-color: #1abc9c!important;
+    padding: 0.9rem 0.6rem !important;
+    transition:  0.3s ease;
+    font-weight: bold;
+}
+.navbar-toggler:focus{
+    border:3px solid #000;
+}
+button{
+    padding: 15px;
+    background-color: #1abc9c;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+@media screen and (min-width:992px) {
+    button{
+        display: none;
+    }
+}
